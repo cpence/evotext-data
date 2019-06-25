@@ -27,7 +27,9 @@ All of our data at rest are transformed into a canonical JSON schema that we can
     "year": "year of publication",
     "volume": "volume number",
     "number": "issue number",
-    "pages": "page range of article (prefer format xxx-yyy)"
+    "pages": "page range of article (prefer format xxx-yyy)",
+    
+    "fullText": "full text of article"
 }
 ```
 
