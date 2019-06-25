@@ -16,7 +16,10 @@ All of our data at rest are transformed into a canonical JSON schema that we can
     
     "license": "short, human-readable form of the document license",
     "licenseUrl": "URL to further information about licensing terms",
+    
     "dataSource": "short, human-readable explanation of the source of this data",
+    "dataSourceUrl": "url of the form https://data.evotext.org/source/asdf",
+    "dataSourceVersion": 1,
     
     "title": "title of article",
     "authors": [
