@@ -39,11 +39,13 @@ All of our data at rest are transformed into a canonical JSON schema that we can
 A few notes on this format:
 
 * The `id` parameter must be unique across the corpus. If a DOI is available, prefer the ID form `"doi:10.1234/5678"`, but if not, anything unique can be used. Data coming from early versions of evoText often used an SHA1 hash of the article PDF file.
-* The `version` parameter is the _schema version,_ not the document version, and is the only non-string value in the entire schema. It is currently 2. It will in general not be read by consumers of the data, but allows for processing scripts to easily update from older to newer versions of canonical JSON.
+* The `version` parameter is the _schema version,_ not the document version. It is currently 2. It will in general not be read by consumers of the data, but allows for processing scripts to easily update from older to newer versions of canonical JSON.
+* The `dataSourceUrl` points to a URL to a particular data source description. [See more information about them here.](data-source-urls.md)
+* The `dataSourceVersion` parameter is the _version of all files from this data source,_ and represents which generation of each set of data you are dealing with. It is a data-source-specific parameter, and its possible values will be defined in each data source description.
 * All other fields are reasonably self-explanatory, and all are strings. \(While it might be nice for years to be of date format, or for volume or number to be integers, each of these values has examples in the wild where rogue data entails that string representations are required. It's the responsibility of data consumers to parse those fields into numbers if required.\)
 
 ## Changelog
 
-* **Schema Version 2, 2019-06-25:** Add internal schema version parameter
+* **Schema Version 2, 2019-06-25:** Add internal schema version parameter, data source URLs, and data source versions.
 * **Schema Version 1, 2019-04-12:** Initial version of at-rest JSON schema, developed for MongoDB usage with rletters-go.
 
