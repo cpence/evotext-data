@@ -7,7 +7,7 @@ description: The format for our canonical JSON data storage
 This is a canonical schema description, `https://data.evotext.org/schema`.  
 The current `version` described by this documentation is 2.
 
-All of our data at rest are transformed into a canonical JSON schema that we can use in order to normalize them and make them easier to process at scale into other kinds of required formats.
+All of our data at rest are transformed into a canonical JSON format that we use to normalize them and make them easier to process at scale into other kinds of required formats.
 
 ## Current Schema
 
