@@ -1,8 +1,9 @@
 # Table of contents
 
-* [evoText Data Documentation](README.md)
+* [Home](README.md)
 * [Changelog](changelog.md)
 * [Canonical JSON Schema](schema/README.md)
+  * [External IDs](schema/external-ids.md)
   * [Data Source URLs](schema/data-source-urls.md)
 * [Incoming Data](incoming-data.md)
 
