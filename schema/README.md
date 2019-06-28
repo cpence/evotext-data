@@ -50,6 +50,8 @@ All of our data at rest are transformed into a canonical JSON format that we use
     "number": "issue number",
     "pages": "page range of article (prefer format xxx-yyy)",
     
+    "abstract": "abstract of article, if available",
+    
     "fullText": "full text of article"
 }
 ```
@@ -67,6 +69,6 @@ A few notes on this format:
 
 ## Changelog
 
-* **Schema Version 2, 2019-06-25:** Add internal schema URL and version parameter, data source URLs, and data source versions. Reworked authors field to be an array of documents rather than strings, including parsed representations. Added support for external IDs.
+* **Schema Version 2, 2019-06-25:** Add internal schema URL and version parameter, data source URLs, and data source versions. Reworked authors field to be an array of documents rather than strings, including parsed representations. Added support for external IDs. Added abstract field.
 * **Schema Version 1, 2019-04-12:** Initial version of at-rest JSON schema, developed for MongoDB usage with rletters-go.
 
