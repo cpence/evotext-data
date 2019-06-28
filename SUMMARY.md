@@ -11,3 +11,7 @@
 
 * [Nature](source/nature.md)
 
+## Technical Details
+
+* [Crossref DOI Scraping](technical-details/crossref-doi-scraping.md)
+

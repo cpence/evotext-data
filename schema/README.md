@@ -21,7 +21,7 @@ All of our data at rest are transformed into a canonical JSON format that we use
     "externalIds": {
         "type": "value",
         "scopus": "1234",
-        "pubmed": "1234",
+        "pmid": "1234",
         "...": "..."
     },
     

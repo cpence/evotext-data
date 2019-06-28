@@ -16,9 +16,8 @@ It is not easily possible to update this corpus, or to extend its scope closer t
 ## Processing
 
 * **PDF OCR to plain text:** ABBYY FineReader 11
-* _Intermediate file formats for_ Nature _have since been lost due to poor data management practices. The following are best-guess reconstructive hypotheses._
-* **Bibliographic data:** CrossRef DOI scraping
-* The files transitioned through, at least, an early version of our Solr XML schema, and then the final version of our Solr XML schema. Because the intermediate plain-text files were lost, this final Solr XML was the source of the plain-text used to construct our canonical JSON data.
+  * These are some of the oldest files that we have. They transitioned through, at least, an early version of our Solr XML schema, and then the final version of our Solr XML schema. Because the intermediate plain-text files were lost, this final Solr XML was the source of the plain-text used to construct our canonical JSON data. We are not aware of any further errors \(beyond OCR error\) introduced by this process.
+* **Bibliographic data:** [CrossRef DOI scraping](../technical-details/crossref-doi-scraping.md)
 
 ## Changelog
 
