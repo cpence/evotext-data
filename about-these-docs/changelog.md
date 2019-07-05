@@ -9,7 +9,7 @@ description: A list of major updates to this documentation
 ### Added
 
 * The initial pilot for our data documentation and normalization effort is now live.
-* Documentation currently only covers _Nature,_ along with our data that's waiting to be analyzed.
+* Documentation currently only covers _Nature,_ as it is the first dataset to be ported to our new schema.
 
 
 
