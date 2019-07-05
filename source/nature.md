@@ -16,10 +16,14 @@ It is not easily possible to update this corpus, or to extend its scope closer t
 ## Processing
 
 * **PDF OCR to plain text:** ABBYY FineReader 11
-  * These are some of the oldest files that we have. They transitioned through, at least, an early version of our Solr XML schema, and then the final version of our Solr XML schema. Because the intermediate plain-text files were lost, this final Solr XML was the source of the plain-text used to construct our canonical JSON data. We are not aware of any further errors \(beyond OCR error\) introduced by this process.
-* **Bibliographic data:** [CrossRef DOI scraping](../technical-details/crossref-doi-scraping.md)
+  * These are some of the oldest files that we have. They transitioned through, at least, an early version of our Solr XML schema and then the final version of our Solr XML schema. Because the intermediate plain-text files were lost, this final Solr XML was the source of the plain-text used to construct our canonical JSON data. We are not aware of any further errors \(beyond OCR error\) introduced by this process.
+* **Basic bibliographic data:** [CrossRef scraping](../technical-details/crossref-scraping.md)
+* **Abstracts:** Whichever abstract is longest, taken from:
+  * Direct web page scraping \(the Dublin Core `description` field on each canonical article page at [nature.com](https://www.nature.com)\)
+  * [PubMed scraping](../technical-details/pubmed-scraping.md)
+* **PMIDs:** [PubMed scraping](../technical-details/pubmed-scraping.md)
 
 ## Changelog
 
-* **Data Source Version 1:** first parsing of the _Nature_ data into canonical JSON format from our original XML source.
+* **Data Source Version 1:** first parsing of the _Nature_ data into canonical JSON format from our original XML source, adding abstracts, PMIDs, formatted names, etc.
 

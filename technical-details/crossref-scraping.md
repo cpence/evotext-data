@@ -2,7 +2,7 @@
 description: How we fetch metadata from DOIs
 ---
 
-# Crossref DOI Scraping
+# Crossref Scraping
 
 Many of our datasets come with DOI information that we must later turn into machine-readable bibliographic data. This can be accomplished using Crossref, the central repository for DOI information \(which is found at [https://doi.org/](https://doi.org/)\). The support on their servers for this access is documented [here](https://support.crossref.org/hc/en-us/articles/213673586-Content-negotiation) and [here](https://crosscite.org/docs.html).
 

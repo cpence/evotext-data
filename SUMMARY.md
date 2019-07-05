@@ -13,5 +13,6 @@
 
 ## Technical Details
 
-* [Crossref DOI Scraping](technical-details/crossref-doi-scraping.md)
+* [Crossref Scraping](technical-details/crossref-scraping.md)
+* [PubMed Scraping](technical-details/pubmed-scraping.md)
 
