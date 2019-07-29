@@ -19,7 +19,7 @@ It is not easily possible to update this corpus, or to extend its scope closer t
   * These are some of the oldest files that we have. They transitioned through, at least, an early version of our Solr XML schema and then the final version of our Solr XML schema. Because the intermediate plain-text files were lost, this final Solr XML was the source of the plain-text used to construct our canonical JSON data. We are not aware of any further errors \(beyond OCR error\) introduced by this process.
 * **Basic bibliographic data:** [CrossRef scraping](../technical-details/crossref-scraping.md)
 * **Abstracts:** Whichever abstract is longest, taken from:
-  * Direct web page scraping \(the Dublin Core `description` field on each canonical article page at [nature.com](https://www.nature.com)\)
+  * Direct web page scraping \(the Dublin Core `dc.description` field, taken from the `<meta>` tag on each canonical article page at [nature.com](https://www.nature.com)\)
   * [PubMed scraping](../technical-details/pubmed-scraping.md)
 * **PMIDs:** [PubMed scraping](../technical-details/pubmed-scraping.md)
 
