@@ -21,7 +21,7 @@ It is not easily possible to update this corpus, or to extend its scope closer t
 * **Abstracts:** Whichever abstract is longest, taken from:
   * Direct web page scraping \(the Dublin Core `dc.description` field, taken from the `<meta>` tag on each canonical article page at [nature.com](https://www.nature.com)\)
   * [PubMed scraping](../technical-details/pubmed-scraping.md)
-* **PMIDs:** [PubMed scraping](../technical-details/pubmed-scraping.md)
+* **PMIDs, PMCIDs, and PubMed Manuscript IDs:** [PubMed scraping](../technical-details/pubmed-scraping.md)
 
 ## Changelog
 
