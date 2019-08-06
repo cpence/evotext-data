@@ -41,7 +41,8 @@ All of our data at rest are transformed into a canonical JSON format that we use
             "middle": "a parsed version",
             "last": "of the name",
             "prefix": "Dr. Prof.",
-            "suffix": "IV"
+            "suffix": "IV",
+            "affiliation": "free-form data"
         }
     ],
     "journal": "journal in which article is published",
@@ -64,11 +65,11 @@ A few notes on this format:
 * The `externalIds` value allows us to store an extensible list of IDs of other sorts, such as PubMed or Scopus identifiers. [A list of all currently known externalId types can be found here,](external-ids.md) though this should not be taken as exhaustive.
 * The `dataSourceUrl` points to a URL to a particular data source description. [See more information about them here.](data-source-urls.md)
 * The `dataSourceVersion` parameter is the _version of all files from this data source,_ and represents which generation of each set of data you are dealing with. It is a data-source-specific parameter, and its possible values will be defined on the page for each data source description. It will also be incremented when new articles are added to the corpus from the same data source, providing a way to indicate and document that article coverage has changed.
-* The `authors` are stored as an array of documents. These _must include_ the `name` property, which is the full, unformatted name of the author as it appears in the original source. They _may_ include the other, parsed properties as listed in the schema here.
+* The `authors` are stored as an array of documents. These _must include_ the `name` property, which is the full, unformatted name of the author as it appears in the original source. They _may_ include the other, parsed properties as listed in the schema here. The `affiliation` property is so diverse in the wild that we place no restrictions on how it may appear in final data.
 * All other fields are reasonably self-explanatory, and all are strings. While it might be nice for years to be of date format, or for volume or number to be integers, each of these values has examples in the wild where rogue data entails that string representations are required \(for instance, electronic-only "page numbers" of the format "e123", or volume numbers of the form "1 Suppl."\). It's the responsibility of consumers to parse those fields into other representations if required.
 
 ## Changelog
 
-* **Schema Version 2, 2019-06-25:** Add internal schema URL and version parameter, data source URLs, and data source versions. Reworked authors field to be an array of documents rather than strings, including parsed representations. Added support for external IDs. Added abstract field.
+* **Schema Version 2, 2019-06-25:** Add internal schema URL and version parameter, data source URLs, and data source versions. Reworked authors field to be an array of documents rather than strings, including parsed representations and affiliations. Added support for external IDs. Added abstract field.
 * **Schema Version 1, 2019-04-12:** Initial version of at-rest JSON schema, developed for MongoDB usage with rletters-go.
 
