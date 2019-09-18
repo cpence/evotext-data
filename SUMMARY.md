@@ -8,6 +8,7 @@
 ## Current Data <a id="source"></a>
 
 * [Nature](source/nature.md)
+* [PLoS](source/plos.md)
 
 ## Technical Details
 

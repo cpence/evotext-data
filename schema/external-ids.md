@@ -13,5 +13,6 @@ This page will list all known external ID types that might appear in the `extern
   * For more on these first three types of values and a tool to manually convert between them \(when possible\), [see this page at PubMed Central](https://www.ncbi.nlm.nih.gov/pmc/pmctopmid/).
 * `pii`: A publisher-specific identifier that may or may not follow the [standard PII format](https://en.wikipedia.org/wiki/Publisher_Item_Identifier).
 * `scopus`: A Scopus ID value, which is simply a large integer.
+* `sici`: a Serial Item and Contribution Identifier that may or not follow the [standard SICI format](https://en.wikipedia.org/wiki/Serial_Item_and_Contribution_Identifier).
 * `semanticScholar`: a Semantic Scholar identifier, which is a 40-character hex string.
 
