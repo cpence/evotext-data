@@ -4,14 +4,14 @@ This is a canonical data source description, `https://data.evotext.org/source/na
 The current `dataSourceVersion` described by this documentation is 1.
 
 **Coverage:** all to vol. 475, no. 7355 \(2011-07-14\)  
-**Copyright:** Nature Publishing Group  
-**License:** Obtained via direct scrape of NPG website, under contract between NPG and the evoText Project
+**Copyright:** Springer Nature  
+**License:** [Springer Nature TDM Policy](https://www.springernature.com/gp/researchers/text-and-data-mining)
 
 ## How we got it
 
 This data was downloaded directly, using a custom-built Python scraper for the Nature Publishing Group family of journals. \(Scrapers age quickly; I believe that ours is no longer functional as of around 2018.\)
 
-It is not easily possible to update this corpus, or to extend its scope closer to the present.
+As our data is now covered by the Springer Nature TDM Policy \(since 2015\), we can now update this corpus from 2011 to the present. We have yet to do so, but hope to implement a workflow for this very soon.
 
 ## Processing
 
