@@ -36,9 +36,8 @@ All of our data at rest are transformed into a canonical JSON format that we use
     
     "title": "title of article",
     "authors": [
-        { "name": "array of authors" },
         {
-            "name": "each name in natural First Last order",
+            "name": "name in natural First Last order",
             "first": "if available",
             "middle": "a parsed version",
             "last": "of the name",
@@ -50,7 +49,9 @@ All of our data at rest are transformed into a canonical JSON format that we use
                 "orcid": "0001-1234-1234-1234",
                 "researcherid": "A-1234-5678"
             }
-        }
+        },
+        { "name": "further authors" },
+        { "name": "only the name field is mandatory" }
     ],
     "journal": "journal in which article is published",
     "year": "year of publication",
