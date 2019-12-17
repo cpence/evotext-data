@@ -71,7 +71,7 @@ All of our data at rest are transformed into a canonical JSON format that we use
 A few notes on this format:
 
 * The `schema` parameter is the URL for this page, containing the schema definition.
-* The `version` parameter is the _schema version,_ not the document version. It is currently 2. It will in general not be read by consumers of the data, but allows for processing scripts to easily update from older to newer versions of canonical JSON.
+* The `version` parameter is the _schema version,_ not the document version. It is currently 3. It will in general not be read by consumers of the data, but allows for processing scripts to easily update from older to newer versions of canonical JSON.
 * The `id` parameter must be unique across the corpus. If a DOI is available, prefer the ID form `"doi:10.1234/5678"`, but if not, anything unique can be used. Early versions of evoText often used an SHA1 hash of the article PDF file, for example.
 * The `externalIds` value allows us to store an extensible list of IDs of other sorts, such as PubMed or Scopus identifiers. [A list of all currently known externalId types can be found here,](external-ids.md) though this should not be taken as exhaustive. All `externalIds` values must be of the form `prefix:identifier`, with everything before the first colon constituting the prefix, and everything after constituting the ID.
 * The `dataSourceUrl` points to a URL to a particular data source description. [See more information about them here.](data-source-urls.md)
