@@ -3,7 +3,7 @@
 This is a canonical data source description, `https://data.evotext.org/source/plos`.  
 The current `dataSourceVersion` described by this documentation is 1.
 
-**Coverage:** All PLoS-published journals, regularly updated; currently to January 22, 2020  
+**Coverage:** All PLoS-published journals, regularly updated; currently to September 18, 2019  
 **Copyright:** Reserved by individual authors; see each article record  
 **License:** [CC-BY 4.0](http://creativecommons.org/licenses/by/4.0/)
 

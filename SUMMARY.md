@@ -5,6 +5,7 @@
   * [External IDs](schema/external-ids.md)
   * [Data Source URLs](schema/data-source-urls.md)
 * [Data Sharing and Copyright](data-sharing.md)
+* [Journal Categorization](journal-categorization.md)
 
 ## Current Data <a id="source"></a>
 
