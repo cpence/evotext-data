@@ -15,6 +15,7 @@ This data is downloaded directly from PLoS, via their open-source [allofplos Pyt
 
 * **JATS XML to Canonical JSON:** direct parsing from XML
 * **PMIDs, PMCIDs, and PubMed Manuscript IDs:** [PubMed scraping](../technical-details/pubmed-scraping.md)
+* **Keywords and Tags:** PLoS does not use author-provided keywords. The "subject categories" visible on each article page are saved as tags.
 
 ## Changelog
 
