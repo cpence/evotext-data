@@ -16,6 +16,7 @@
 
 * [Crossref Scraping](technical-details/crossref-scraping.md)
 * [PubMed Scraping](technical-details/pubmed-scraping.md)
+* [NLM XML Parsing](technical-details/nlm-xml-parsing.md)
 
 ## About These Docs
 
