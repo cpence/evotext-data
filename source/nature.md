@@ -1,7 +1,7 @@
 # Nature
 
 This is a canonical data source description, `https://data.evotext.org/source/nature`.  
-The current `dataSourceVersion` described by this documentation is 2. The `dataSource` name for this data is either `Nature Publishing Group` \(for our initial PDFs obtained under license with NPG, publication dates prior to 2011-07-04\), or `Springer Nature` \(for all others\).
+The current `dataSourceVersion` described by this documentation is 3. The `dataSource` name for this data is either `Nature Publishing Group` \(for our initial PDFs obtained under license with NPG, publication dates prior to 2011-07-04\), or `Springer Nature` \(for all others\).
 
 **Coverage:** all to vol. 475, no. 7355 \(2011-07-14\)  
 **Copyright:** Springer Nature  
@@ -27,6 +27,7 @@ As our data is now covered by the Springer Nature TDM Policy \(since 2015\), we 
 
 ## Changelog
 
+* **Data Source Version 3 \(2020-02-05\):** Empty `externalIds` and occasional empty `authors` values were detected. These have been removed.
 * **Data Source Version 2 \(2020-01-23\):** A bug was detected in the parsing of our PMCID, PMMID, and PMID values. The bug was fixed, and we've re-run the PubMed extraction against the entire corpus to provide correct values for this metadata.
 * **Data Source Version 1:** First parsing of the _Nature_ data into canonical JSON format from our original XML source, adding abstracts, PMIDs, formatted names, etc.
 
