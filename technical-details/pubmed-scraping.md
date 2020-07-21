@@ -8,7 +8,7 @@ In order to have a more complete collection of article abstracts, as well as uni
 
 To do this, we use PubMed's [ESearch and EFetch APIs](https://www.ncbi.nlm.nih.gov/books/NBK25501/). The ESearch API takes a DOI \(which we have for almost every item in our database\), and converts it to a PubMed PMID. We then pass this PMID to the EFetch API, which returns a variety of useful data:
 
-* Standard bibliographic data, including PMID, PMCID, and PubMed Manuscript ID
+* Standard bibliographic data, including PMID, PMCID, and PubMed Manuscript ID and publication, reception, and acceptance dates
 * Abstract
 * Manual article categorization, including lists of chemicals and proteins, as well as [NLM MeSH subject headings](https://www.nlm.nih.gov/mesh/)
 
