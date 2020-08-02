@@ -1,6 +1,6 @@
 # PLoS
 
-This is a canonical data source description, `https://data.evotext.org/source/plos`.  
+This is a canonical data source description, `https://data.sciveyor.com/source/plos`.  
 The current `dataSourceVersion` described by this documentation is 1. The `dataSource` name for this data is `Public Library of Science`.
 
 **Coverage:** All PLoS-published journals, regularly updated; currently to January 22, 2020  

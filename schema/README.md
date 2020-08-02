@@ -4,7 +4,7 @@ description: The format for our canonical JSON data storage
 
 # Canonical JSON Schema
 
-This is a canonical schema description, `https://data.evotext.org/schema`.  
+This is a canonical schema description, `https://data.sciveyor.com/schema`.  
 The current `version` described by this documentation is 4.
 
 All of our data at rest are transformed into a canonical JSON format that we use to normalize them and make them easier to process at scale into other kinds of required formats.
@@ -13,7 +13,7 @@ All of our data at rest are transformed into a canonical JSON format that we use
 
 ```javascript
 {
-    "schema": "https://data.evotext.org/schema",
+    "schema": "https://data.sciveyor.com/schema",
     "version": 4,
 
     "id": "any string ID, must be unique across the entire corpus",
@@ -29,7 +29,7 @@ All of our data at rest are transformed into a canonical JSON format that we use
     "licenseUrl": "URL to further information about licensing terms",
     
     "dataSource": "short, human-readable explanation of the source of this data",
-    "dataSourceUrl": "url of the form https://data.evotext.org/source/asdf",
+    "dataSourceUrl": "url of the form https://data.sciveyor.com/source/asdf",
     "dataSourceVersion": 1,
     
     "type": "article",
@@ -97,6 +97,7 @@ A few notes on this format:
 
 ## Changelog
 
+* **Schema Version 5, 2020-08-02:** Rebrand to Sciveyor, changing the schema and dataSource URLs.
 * **Schema Version 4, 2020-06-19:** Rename the "year" field to "date" and changed its format from a year to an ISO 8601 date. Add the "dateElectronic", "dateAccepted", and "dateReceived" fields.
 * **Schema Version 3, 2019-12-17:** Add "type" field for documents, currently always set to "article". Convert "externalIds" to prefixed array rather than dictionary. Add "externalIds" array for authors. Add "keywords" and "tags".
 * **Schema Version 2, 2019-06-25:** Add internal schema URL and version parameter, data source URLs, and data source versions. Reworked authors field to be an array of documents rather than strings, including parsed representations and affiliations. Added support for external IDs. Added abstract field.

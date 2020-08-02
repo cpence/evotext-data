@@ -4,7 +4,7 @@ description: 'Content that has been downloaded, but not yet processed'
 
 # Incoming Data
 
-We usually have a variety of content that has been obtained from external sources, but is still awaiting manual processing of various kinds. The status of that data is tracked here. If you would like to see the future of the evoText database, this is the place to look!
+We usually have a variety of content that has been obtained from external sources, but is still awaiting manual processing of various kinds. The status of that data is tracked here. If you would like to see the future of the Sciveyor database, this is the place to look!
 
 * _Trends in Ecology and Evolution_
   * Format: NLM XML

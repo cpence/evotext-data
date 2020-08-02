@@ -4,6 +4,12 @@ description: A list of major updates to this documentation
 
 # Changelog
 
+## 0.3 - 2020-08-02
+
+### Added
+
+* Rebrand to Sciveyor.
+
 ## 0.2 - 2019-10-04
 
 ### Added

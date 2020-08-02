@@ -10,10 +10,10 @@ Some of our data – particularly anything arising from open-access journals and
 
 Much of our data, however, is the result of copyright arrangements that have been negotiated between our project and journal publishers. To that end, we would be glad to share as we can, but are limited by our contracts.
 
-We thus have no choice but to engage with data sharing requests on a case-by-case basis. If you would like to work with evoText data, please write an e-mail to &lt;[charles@charlespence.net](mailto:charles@charlespence.net)&gt; containing the following information:
+We thus have no choice but to engage with data sharing requests on a case-by-case basis. If you would like to work with Sciveyor data, please write an e-mail to &lt;[charles@charlespence.net](mailto:charles@charlespence.net)&gt; containing the following information:
 
 * Your name, contact details, and institutional affiliation
-* An unambiguous way to reference the set of articles you are interested in \(whether a particular evoText search/dataset, or journals, or year ranges, etc.\)
+* An unambiguous way to reference the set of articles you are interested in \(whether a particular Sciveyor search/dataset, or journals, or year ranges, etc.\)
 * For data that is not open-by-default:
   * The status of your libraries' access to the content in question \(that is, do you already have institutional access to the material at issue?\)
   * A contact address for someone who works on institutional journal access issues at your institution \(probably working within your libraries\)

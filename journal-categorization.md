@@ -4,11 +4,11 @@ description: The categories into which we sort journals on evoText
 
 # Journal Categorization
 
-_Note: This categorization schema is in development, but has not yet been deployed on evoText in production. We are posting it here to document our efforts to build a categorization system that we hope could be useful for all our users._
+_Note: This categorization schema is in development, but has not yet been deployed on Sciveyor in production. We are posting it here to document our efforts to build a categorization system that we hope could be useful for all our users._
 
-As evoText began to obtain content from a wide variety of publishers, including Open Access publishers that produce journals in many areas of the sciences and humanities, we wanted to develop a concrete, relatively objective way to determine which journals should be added to the database and which left out. To that end, we have developed the following hierarchical categorization which, we believe, encompasses _any_ field which might reasonably be said to employ evolutionary explanations, with some caveats. \(Note that the bulk of the categories here were cribbed from [the Wiley website,](http://www.wiley.com/) with our thanks.\)
+As Sciveyor began to obtain content from a wide variety of publishers, including Open Access publishers that produce journals in many areas of the sciences and humanities, we wanted to develop a concrete, relatively objective way to determine which journals should be added to the database and which left out. To that end, we have developed the following hierarchical categorization which, we believe, encompasses _any_ field which might reasonably be said to employ evolutionary explanations, with some caveats. \(Note that the bulk of the categories here were cribbed from [the Wiley website,](http://www.wiley.com/) with our thanks.\)
 
-Of course, any categorization is necessarily incomplete, and particularly in instances when we are forced to negotiate with publishers, the priorities of the project team, and users will certainly come into play. But this categorization functions as an overarching guide to determining when a journal might be a fit for evoText, and it can also be used to narrow the scope of evoText searches.
+Of course, any categorization is necessarily incomplete, and particularly in instances when we are forced to negotiate with publishers, the priorities of the project team, and users will certainly come into play. But this categorization functions as an overarching guide to determining when a journal might be a fit for Sciveyor, and it can also be used to narrow the scope of Sciveyor searches.
 
 Read on to see the categories, along with a brief discussion of why this particular categorization was employed and how we use it to determine whether or not a journal should be added.
 
@@ -30,7 +30,7 @@ First, we categorize on the basis of journal type, separating "review" journals 
 
 ### Evolutionary Sciences
 
-Now, we have evoText's core area: the biomedical sciences, and cognate fields that use evolutionary explanations as a matter of course. Any journal which falls within the following areas will be added to evoText:
+Now, we have Sciveyor's historical core area: the biomedical sciences, and cognate fields that use evolutionary explanations as a matter of course. Any journal which falls within the following areas will be added to Sciveyor:
 
 * Life Sciences
   * Anatomy & Physiology
@@ -165,7 +165,7 @@ Now, we have evoText's core area: the biomedical sciences, and cognate fields th
 
 ### Secondary Evolutionary Sciences
 
-Next, we have sciences which make appeals to evolutionary explanations relatively often. Journals in these categories will be added to evoText, though they will be added at a lower priority than journals in the above categories.
+Next, we have sciences which make appeals to evolutionary explanations relatively often. Journals in these categories will be added to Sciveyor, though they will be added at a lower priority than journals in the above categories.
 
 * Geography, Geology & Environmental Sciences
   * Earth Science
