@@ -1,5 +1,5 @@
 ---
-description: A list of known external ID types that currently appear in evoText
+description: A list of known external ID types that currently appear in Sciveyor
 ---
 
 # External IDs

@@ -1,5 +1,5 @@
 ---
-description: The categories into which we sort journals on evoText
+description: The categories into which we sort journals on Sciveyor
 ---
 
 # Journal Categorization
