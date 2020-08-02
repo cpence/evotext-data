@@ -5,7 +5,7 @@ description: The format for our canonical JSON data storage
 # Canonical JSON Schema
 
 This is a canonical schema description, `https://data.sciveyor.com/schema`.  
-The current `version` described by this documentation is 4.
+The current `version` described by this documentation is 5.
 
 All of our data at rest are transformed into a canonical JSON format that we use to normalize them and make them easier to process at scale into other kinds of required formats.
 
@@ -14,7 +14,7 @@ All of our data at rest are transformed into a canonical JSON format that we use
 ```javascript
 {
     "schema": "https://data.sciveyor.com/schema",
-    "version": 4,
+    "version": 5,
 
     "id": "any string ID, must be unique across the entire corpus",
     "doi": "10.1234/5678 (should include if available)",
@@ -76,7 +76,7 @@ All of our data at rest are transformed into a canonical JSON format that we use
 A few notes on this format:
 
 * The `schema` parameter is the URL for this page, containing the schema definition.
-* The `version` parameter is the _schema version,_ not the document version. It is currently 4. It will in general not be read by consumers of the data, but allows for processing scripts to easily update from older to newer versions of canonical JSON.
+* The `version` parameter is the _schema version,_ not the document version. It is currently 5. It will in general not be read by consumers of the data, but allows for processing scripts to easily update from older to newer versions of canonical JSON.
 * The `id` parameter must be unique across the corpus. If a DOI is available, prefer the ID form `"doi:10.1234/5678"`, but if not, anything unique can be used. Early versions of evoText often used an SHA1 hash of the article PDF file, for example.
 * The `externalIds` value allows us to store an extensible list of IDs of other sorts, such as PubMed or Scopus identifiers. [A list of all currently known externalId types can be found here,](external-ids.md) though this should not be taken as exhaustive. All `externalIds` values must be of the form `prefix:identifier`, with everything before the first colon constituting the prefix, and everything after constituting the ID.
 * The `dataSourceUrl` points to a URL to a particular data source description. [See more information about them here.](data-source-urls.md)
