@@ -7,7 +7,7 @@ description: The format for our canonical JSON data storage
 This is a canonical schema description, `https://data.sciveyor.com/schema`.  
 The current `version` described by this documentation is 5.
 
-All of our data at rest are transformed into a canonical JSON format that we use to normalize them and make them easier to process at scale into other kinds of required formats. This is the human-readable version of the format. If you would like to automatically validate documents against it, you can find a [JSON Schema](https://json-schema.org/draft/2019-09/json-schema-core.html) version of the schema at &lt;[https://codeberg.org/Sciveyor/json-schema](https://codeberg.org/Sciveyor/json-schema)&gt;.
+All of our data at rest are transformed into a canonical JSON format that we use to normalize them and make them easier to process at scale into other kinds of required formats. This is the human-readable version of the format. If you would like to automatically validate documents against it, you can find a [JSON Schema](https://json-schema.org/draft/2019-09/json-schema-core.html) version of the schema at &lt;[https://codeberg.org/sciveyor/json-schema](https://codeberg.org/sciveyor/json-schema)&gt;.
 
 ## Current Schema
 
