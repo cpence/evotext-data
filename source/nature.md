@@ -27,7 +27,7 @@ As our data is now covered by the Springer Nature TDM Policy \(since 2015\), we 
 
 ## Changelog
 
-* **Data Source Version 6 \(2021-02-22\):** Fixed a number of dates that did not parse correctly as ISO-8601. Validated against the JSON schema, fixing a number of errors \(mostly around `licenseUrl` and some `null` field values\).
+* **Data Source Version 6 \(2021-02-26\):** Fixed a number of dates that did not parse correctly as ISO-8601. Validated against the JSON schema, fixing a number of errors \(mostly around `licenseUrl` and some `null` field values\). Corrected a number of duplicated DOI/ID values resulting from a metadata parsing error.
 * **Data Source Version 5 \(2020-08-02\):** Upgraded to JSON schema v5.
 * **Data Source Version 4 \(2020-07-21\):** Upgraded to JSON schema v4, adding `date`, `dateElectronic`, `dateReceived`, and `dateAccepted`.
 * **Data Source Version 3 \(2020-02-05\):** Empty`externalIds` and occasional empty `authors` values were detected. These have been removed.
