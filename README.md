@@ -18,7 +18,7 @@ This documentation is available under the [CC-BY 4.0 International license](http
 
 If you would like to cite this documentation, please use:
 
-> Pence, Charles H. 2020. “The Sciveyor Data Documentation Project, version \(x.y\).” Last modified \(date\). https://data.sciveyor.com/.
+> Pence, Charles H. 2021. “The Sciveyor Data Documentation Project, version \(x.y\).” Last modified \(date\). https://data.sciveyor.com/.
 
 To get those version numbers and modification dates, see the [Changelog](about-these-docs/changelog.md). And if you make use of Sciveyor itself, don't forget to cite its original paper as well \(with the project's old name\):
 
